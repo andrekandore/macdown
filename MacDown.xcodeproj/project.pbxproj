@@ -947,7 +947,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = MP;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "Tzu-ping Chung ";
 				TargetAttributes = {
 					1FA6DE441941CC9E000409FB = {
@@ -957,10 +957,9 @@
 			};
 			buildConfigurationList = 1FA6DE1C1941CC9E000409FB /* Build configuration list for PBXProject "MacDown" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 				sv,
@@ -1613,12 +1612,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1664,12 +1665,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1700,6 +1703,7 @@
 			baseConfigurationReference = 1A198D1BA59D710201DD3BC8 /* Pods-MacDown.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MacDown/Code/MacDown-Prefix.pch";
@@ -1717,6 +1721,7 @@
 			baseConfigurationReference = 39EFCAE04F60154F0C8C5469 /* Pods-MacDown.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MacDown/Code/MacDown-Prefix.pch";
@@ -1789,6 +1794,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4DBAA63927A60EB2150642B3 /* Pods-macdown-cmd.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1804,6 +1810,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7A8EA75FA95818275755F0B6 /* Pods-macdown-cmd.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				PRODUCT_NAME = macdown;
